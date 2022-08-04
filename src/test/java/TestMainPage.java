@@ -1,4 +1,5 @@
 import locator.ListOfLocators;
+import locator.TestData;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -26,14 +27,14 @@ public class TestMainPage extends BaseTest {
     @Parameterized.Parameters
     public static Object[][] getTestData() {
         return new Object[][] {
-                {ListOfLocators.firstQuestion, ListOfLocators.firstQuestionText, ListOfLocators.firstAnswer},
-                {ListOfLocators.secondQuestion, ListOfLocators.secondQuestionText, ListOfLocators.secondAnswer},
-                {ListOfLocators.thirdQuestion, ListOfLocators.thirdQuestionText, ListOfLocators.thirdAnswer},
-                {ListOfLocators.fourthQuestion, ListOfLocators.fourthQuestionText, ListOfLocators.fourthAnswer},
-                {ListOfLocators.fifthQuestion, ListOfLocators.fifthQuestionText, ListOfLocators.fifthAnswer},
-                {ListOfLocators.sixthQuestion, ListOfLocators.sixthQuestionText, ListOfLocators.sixthAnswer},
-                {ListOfLocators.seventhQuestion, ListOfLocators.seventhQuestionText, ListOfLocators.seventhAnswer},
-                {ListOfLocators.eighthQuestion, ListOfLocators.eighthQuestionText, ListOfLocators.eighthAnswer},
+                {ListOfLocators.firstQuestion, ListOfLocators.firstQuestionText, TestData.firstAnswer},
+                {ListOfLocators.secondQuestion, ListOfLocators.secondQuestionText, TestData.secondAnswer},
+                {ListOfLocators.thirdQuestion, ListOfLocators.thirdQuestionText, TestData.thirdAnswer},
+                {ListOfLocators.fourthQuestion, ListOfLocators.fourthQuestionText, TestData.fourthAnswer},
+                {ListOfLocators.fifthQuestion, ListOfLocators.fifthQuestionText, TestData.fifthAnswer},
+                {ListOfLocators.sixthQuestion, ListOfLocators.sixthQuestionText, TestData.sixthAnswer},
+                {ListOfLocators.seventhQuestion, ListOfLocators.seventhQuestionText, TestData.seventhAnswer},
+                {ListOfLocators.eighthQuestion, ListOfLocators.eighthQuestionText, TestData.eighthAnswer},
         };
     }
 
